@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package pmc.protobuf;
 
-option go_package = "github.com/Pharmacity-JSC/pmc-inapp-protobuf/pmcpb;pmcpb";
+option go_package = "github.com/xuandopmc/protobuf/pmcpb;pmcpb";
 
 message Pagination {
   int32 limit         = 1 [json_name = "limit"];
