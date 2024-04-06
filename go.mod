@@ -1,4 +1,4 @@
-module github.com/Pharmacity-JSC/pmc-inapp-protobuf
+module github.com/xuandopmc/protobuf
 
 go 1.22.1
 
