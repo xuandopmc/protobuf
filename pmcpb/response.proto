@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package pmc.protobuf;
+
+option go_package = "github.com/Pharmacity-JSC/pmc-inapp-protobuf/pmcpb;pmcpb";
+
+message MetaResponse {
+  string code       = 1 [json_name = "code"];
+  string message    = 2 [json_name = "message"];
+  string trace_id   = 3 [json_name = "trace_id"];
+}

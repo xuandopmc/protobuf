@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pmc.protobuf;
+
+option go_package = "github.com/Pharmacity-JSC/pmc-inapp-protobuf/pmcpb;pmcpb";
+
+message Pagination {
+  int32 limit         = 1 [json_name = "limit"];
+  int32 page          = 2 [json_name = "page"];
+  int64 TotalRecords  = 3 [json_name = "total_records"];
+  int32 total_page    = 4 [json_name = "total_page"];
+}
